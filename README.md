@@ -53,9 +53,11 @@ Creamos otro modelo de RandomForest, aumentando el número de estimadores, y obt
 A continuación mostraremos los dos modelos con mayor puntuación, de 0.74 ambos, siendo éstos XGBoost y LightGBM, dos modelos bastante potetentes y que se desenvuelven bien en targets desbalanceados.
 
 XGB
+
 ![CURVAXGB1](https://user-images.githubusercontent.com/113980137/209181557-a5ffe85b-4c35-48a2-84f4-08106ae2e222.png)
 
 LightGBM
+
 ![LgbmMATRIX](https://user-images.githubusercontent.com/113980137/209182098-98e2a546-1ffc-4209-9f13-11c8561286fc.png)
 
 De los 2 modelos, se elige LightGBM como el mejor, por que aunque presenten el mismo score, LightGBM suaviza un poco los valores de las 3 categorías, bajando un poco el score en el nivel 2, pero nos aumenta los niveles 1 y 3, por lo que hace que nos decantemos por el ya que el nivel 2 es el que más muestras tiene, y preferimos tener un equilibrio entre los 3.
