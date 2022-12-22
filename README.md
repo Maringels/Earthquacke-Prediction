@@ -44,6 +44,7 @@ Consideramos importante todas aquellas variables que nos indican el tipo de mate
 
 ## MODELOS
 Creamos un modelo baseline de Randomforest, con todo el conjunto de datos (sin eliminar), para ver cómo se comporta el modelo. Obtenemos una puntuación de 0.70 en Kaggle, pero presenta bastante overfitting como podemos observar en el gráfico, además no predice nada para el nivel 1 de daño, que como hemos visto, es el que menor número de muestras presenta del target.
+
 ![MATRIXRF2](https://user-images.githubusercontent.com/113980137/209180598-6883ef62-6abb-4ab2-a658-7b3d6fcc0e93.png)
 
 Creamos otro modelo de RandomForest, aumentando el número de estimadores, y obtenemos un mejor rendimiento.
@@ -62,5 +63,6 @@ LightGBM
 
 De los 2 modelos, se elige LightGBM como el mejor, por que aunque presenten el mismo score, LightGBM suaviza un poco los valores de las 3 categorías, bajando un poco el score en el nivel 2, pero nos aumenta los niveles 1 y 3, por lo que hace que nos decantemos por el ya que el nivel 2 es el que más muestras tiene, y preferimos tener un equilibrio entre los 3.
 Se muestra la matriz de correlación de éste modelo.
+
 ![MATRIXLGBM](https://user-images.githubusercontent.com/113980137/209183459-5dd2c312-385f-4125-9f57-ff8307715a9e.png)
 
