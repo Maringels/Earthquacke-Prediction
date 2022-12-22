@@ -48,6 +48,7 @@ Creamos un modelo baseline de Randomforest, con todo el conjunto de datos (sin e
 ![MATRIXRF2](https://user-images.githubusercontent.com/113980137/209180598-6883ef62-6abb-4ab2-a658-7b3d6fcc0e93.png)
 
 Creamos otro modelo de RandomForest, aumentando el número de estimadores, y obtenemos un mejor rendimiento.
+
 ![CURVARF3](https://user-images.githubusercontent.com/113980137/209180950-99fe5f5a-a176-4eba-ac72-dbfeec0306da.png)
 
 
