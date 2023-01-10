@@ -1,7 +1,7 @@
 # Earthquacke-Prediction
 
 ## Datos
-Este dataset trata sobre el terremoto denominado 'Gorkha earthquacke', que sucedió en 2015 en Nepal, en concreto, lo que queremos realizar en este notebook es crear un modelo para predeccir el nivel de daño en un edificio ocasionado por un terremoto, siendo nuestro target éste daño, el cuál se divide en 3 categorías:
+Este dataset trata sobre el terremoto denominado 'Gorkha earthquacke', que sucedió en 2015 en Nepal, en concreto, lo que queremos realizar en este notebook es crear un modelo para predecir el nivel de daño en un edificio ocasionado por un terremoto, siendo nuestro target éste daño, el cuál se divide en 3 categorías:
 * 1 = Low damage
 * 2 = Medium damage
 * 3 = complete destruction
